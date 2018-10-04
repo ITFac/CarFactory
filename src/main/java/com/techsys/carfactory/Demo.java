@@ -2,6 +2,7 @@ package com.techsys.carfactory;
 
 import com.techsys.carfactory.car.DunlopTire;
 import com.techsys.carfactory.car.OnePointFiveEngine;
+import com.techsys.carfactory.car.SomeTire;
 import com.techsys.carfactory.car.Swift;
 import com.techsys.carfactory.icar.Car;
 
@@ -16,8 +17,8 @@ public class Demo {
 
         car.pushTire(new DunlopTire());
         car.pushTire(new DunlopTire());
-        car.pushTire(new DunlopTire());
-        car.pushTire(new DunlopTire());
+        car.pushTire(new SomeTire());
+        car.pushTire(new SomeTire());
 
         car.describe();
 
